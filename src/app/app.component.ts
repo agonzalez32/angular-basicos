@@ -12,6 +12,7 @@ import { ResolveStart } from '@angular/router';
 export class AppComponent {
   titulo: string = 'Contador App';
   numero: number = 10;
+  base  : number = 5;
 
   sumar(){
     this.numero += 1;
@@ -21,8 +22,8 @@ export class AppComponent {
       this.numero -= 1;
   }
 
-  base: number = 5;
   
+
   acumular( valor: number ){
     this.numero += valor;
   }
