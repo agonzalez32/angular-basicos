@@ -21,4 +21,10 @@ export class AppComponent {
       this.numero -= 1;
   }
 
+  base: number = 5;
+  
+  acumular( valor: number ){
+    this.numero += valor;
+  }
+
 }
