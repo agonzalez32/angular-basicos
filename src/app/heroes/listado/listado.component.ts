@@ -6,8 +6,6 @@ import { Component } from '@angular/core';
 })
 export class ListadoComponent {
 
-  constructor() { 
-    console.log ('Constructor');
-  }
+  heroes: string[] = ['Spiderman', 'Ironman', 'Hulk', 'Thor', 'Capitan America'];
 
 }
