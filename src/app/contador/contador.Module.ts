@@ -11,4 +11,4 @@ import { contadorComponent } from './contador/contador.component';
         contadorComponent
     ]
 })
-export class contadorModule {}
+export class ContadorModule {}

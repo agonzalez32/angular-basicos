@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+import { ContadorModule } from './contador/contador.Module';
 import { HeoresModule } from './heroes/heroes.module';
-import { contadorModule } from './contador/contador.Module';
 
 @NgModule({
   declarations: [
@@ -13,7 +13,7 @@ import { contadorModule } from './contador/contador.Module';
   imports: [
     BrowserModule,
     HeoresModule,
-    contadorModule
+    ContadorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
